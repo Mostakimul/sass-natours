@@ -184,12 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"sass/main.scss":[function(require,module,exports) {
+},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"vendors/icon-fonts.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\img\\hero.jpg":[["hero.3ad8264a.jpg","img/hero.jpg"],"img/hero.jpg"],"./..\\img\\nat-4.jpg":[["nat-4.e9f66017.jpg","img/nat-4.jpg"],"img/nat-4.jpg"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./fonts\\linea-basic-10.eot":[["linea-basic-10.301cbe14.eot","vendors/fonts/linea-basic-10.eot"],"vendors/fonts/linea-basic-10.eot"],"./fonts\\linea-basic-10.woff":[["linea-basic-10.cead8193.woff","vendors/fonts/linea-basic-10.woff"],"vendors/fonts/linea-basic-10.woff"],"./fonts\\linea-basic-10.ttf":[["linea-basic-10.2c74981c.ttf","vendors/fonts/linea-basic-10.ttf"],"vendors/fonts/linea-basic-10.ttf"],"./fonts\\linea-basic-10.svg":[["linea-basic-10.0d41d2ed.svg","vendors/fonts/linea-basic-10.svg"],"vendors/fonts/linea-basic-10.svg"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -394,4 +394,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/main.07544d9b.js.map
+//# sourceMappingURL=/icon-fonts.0f2c2463.js.map
