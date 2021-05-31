@@ -5,8 +5,17 @@
   margin: 0 auto;
   // background-color: #eee;
 
+  @include respond(tab-port) {
+    max-width: $grid-width-tab-port;
+    padding: 0 3rem;
+  }
+
   &:not(:last-child) {
     margin-bottom: $gutter-vartical;
+
+    @include respond(tab-port) {
+      margin-bottom: $gutter-vartical-small;
+    }
   }
 
   @include clearfix;
@@ -21,6 +30,15 @@
 
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
+
+      @include respond(tab-port) {
+        margin-right: 0;
+        margin-bottom: $gutter-vartical-small;
+      }
+    }
+
+    @include respond(tab-port) {
+      width: 100% !important;
     }
   }
 
