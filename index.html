@@ -10,11 +10,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">
   <!-- Icon Fonts -->
-  <link rel="stylesheet" href="vendors/icon-fonts.css">
+  <!-- <link rel="stylesheet" href="./assets/style/icon-fonts.css"> -->
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <!-- Custom css -->
   <link rel="stylesheet" href="./sass/main.scss">
   <!-- For Favicon icon -->
-  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png">
 
   <title>Natours</title>
 </head>
@@ -43,7 +45,7 @@
   <!-- Header Section Start -->
   <header class="header">
     <div class="header__logo-box">
-      <img src="img/logo-white.png" alt="logo-white" class="header__logo">
+      <img src="./assets/img/logo-white.png" alt="logo-white" class="header__logo">
     </div>
 
     <div class="header__text-box">
@@ -88,17 +90,17 @@
         <div class="col-1-of-2">
           <div class="composition">
 
-            <img srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+            <img srcset="./assets/img/nat-1.jpg 300w, ./assets/img/nat-1-large.jpg 1000w"
               sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 1"
-              class="composition__photo composition__photo--p1" src="img/nat-1-large.jpg">
+              class="composition__photo composition__photo--p1" src="./assets/img/nat-1-large.jpg">
 
-            <img srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
+            <img srcset="./assets/img/nat-2.jpg 300w, ./assets/img/nat-2-large.jpg 1000w"
               sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 2"
-              class="composition__photo composition__photo--p2" src="img/nat-2-large.jpg">
+              class="composition__photo composition__photo--p2" src="./assets/img/nat-2-large.jpg">
 
-            <img srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
+            <img srcset="./assets/img/nat-3.jpg 300w, ./assets/img/nat-3-large.jpg 1000w"
               sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 3"
-              class="composition__photo composition__photo--p3" src="img/nat-3-large.jpg">
+              class="composition__photo composition__photo--p3" src="./assets/img/nat-3-large.jpg">
             <!-- <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
             <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
             <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3"> -->
@@ -113,7 +115,8 @@
       <div class="row">
         <div class="col-1-of-4">
           <div class="feature-box">
-            <i class="feature-box__icon icon-basic-compass"></i>
+            <!-- <i class="feature-box__icon icon-basic-compass"></i> -->
+            <i class="feature-box__icon fas fa-street-view"></i>
             <h3 class="heading-tertiary u-margin-bottom-small">Meet Nature</h3>
             <p class="feature-box__text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta distinctio quo eos! Deserunt facere
@@ -123,7 +126,8 @@
         </div>
         <div class="col-1-of-4">
           <div class="feature-box">
-            <i class="feature-box__icon icon-basic-world"></i>
+            <!-- <i class="feature-box__icon icon-basic-world"></i> -->
+            <i class="feature-box__icon fas fa-globe"></i>
             <h3 class="heading-tertiary u-margin-bottom-small">Explore the world</h3>
             <p class="feature-box__text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta distinctio quo eos! Deserunt facere
@@ -133,7 +137,8 @@
         </div>
         <div class="col-1-of-4">
           <div class="feature-box">
-            <i class="feature-box__icon icon-basic-map"></i>
+            <!-- <i class="feature-box__icon icon-basic-map"></i> -->
+            <i class="feature-box__icon fas fa-map-signs"></i>
             <h3 class="heading-tertiary u-margin-bottom-small">Find your way</h3>
             <p class="feature-box__text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta distinctio quo eos! Deserunt facere
@@ -143,7 +148,8 @@
         </div>
         <div class="col-1-of-4">
           <div class="feature-box">
-            <i class="feature-box__icon icon-basic-heart"></i>
+            <!-- <i class="feature-box__icon icon-basic-heart"></i> -->
+            <i class="feature-box__icon far fa-heart"></i>
             <h3 class="heading-tertiary u-margin-bottom-small">Live a healthier life</h3>
             <p class="feature-box__text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta distinctio quo eos! Deserunt facere
@@ -277,8 +283,8 @@
       <!-- Video background -->
       <div class="bg-video">
         <video class="bg-video__content" autoplay muted loop>
-          <source src="./img/video.mp4" type="video/mp4">
-          <source src="./img/video.webm" type="video/webm">
+          <source src="./assets/img/video.mp4" type="video/mp4">
+          <source src="./assets/img/video.webm" type="video/webm">
           Browser doesn't support video!
         </video>
       </div>
@@ -293,7 +299,7 @@
         <div class="story">
           <figure class="story__shape">
             <!-- TODO: make this image responsive -->
-            <img src="./img/nat-8.jpg" alt="Image" class="story__img">
+            <img src="./assets/img/nat-8.jpg" alt="Image" class="story__img">
             <figcaption class="story__caption">
               Mary Smith
             </figcaption>
@@ -313,7 +319,7 @@
         <div class="story">
           <figure class="story__shape">
             <!-- TODO: make this image responsive -->
-            <img src="./img/nat-9.jpg" alt="Image" class="story__img">
+            <img src="./assets/img/nat-9.jpg" alt="Image" class="story__img">
             <figcaption class="story__caption">
               Mostakimul
             </figcaption>
@@ -387,9 +393,10 @@
   <footer class="footer">
     <div class="footer__logo-box">
       <picture>
-        <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" media="(max-width: 37.5rem)">
-        <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="full logo" class="footer__logo"
-          src="img/logo-green-2x.png">
+        <source srcset="./assets/img/logo-green-small-1x.png 1x, ./assets/img/logo-green-small-2x.png 2x"
+          media="(max-width: 37.5rem)">
+        <img srcset="./assets/img/logo-green-1x.png 1x, ./assets/img/logo-green-2x.png 2x" alt="full logo"
+          class="footer__logo" src="./assets/img/logo-green-2x.png">
       </picture>
 
       <!-- <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="full logo" class="footer__logo"> -->
@@ -419,8 +426,8 @@
   <div class="popup" id="popup">
     <div class="popup__content">
       <div class="popup__left">
-        <img src="img/nat-8.jpg" alt="Tour Photo" class="popup__img">
-        <img src="img/nat-9.jpg" alt="Tour Photo" class="popup__img">
+        <img src="./assets/img/nat-8.jpg" alt="Tour Photo" class="popup__img">
+        <img src="./assets/img/nat-9.jpg" alt="Tour Photo" class="popup__img">
       </div>
       <div class="popup__right">
         <a href="#section-tours" class="popup__close">&times;</a>
