@@ -1,5 +1,0 @@
-.vscode/
-node_modules/
-.cache/
-dist/
-vite.config.js
